@@ -26,7 +26,7 @@ def main():
     print("GRU model successfully loaded")    
     predicted_lstm = model_lstm.predict(x_test)    
     predicted_lstm = scaler.inverse_transform(predicted_lstm.reshape(-1, 1)).reshape(1, -1)[0]    
-    predicted_GRU = model_lstm.predict(x_test)    
+    predicted_GRU = model_GRU.predict(x_test)    
     predicted_GRU = scaler.inverse_transform(predicted_GRU.reshape(-1, 1)).reshape(1, -1)[0]    
     if flask.request.method == 'GET':
         return(flask.render_template('index.html')) 
