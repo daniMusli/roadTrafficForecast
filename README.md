@@ -14,7 +14,7 @@ videos. The second part is to train forecasting models using LSTM and GRU Neural
   <img src="/images/cv1.png" width="140" height="120" />
   <img src="/images/cv2.png" width="140" height="120" />
   <img src="/images/cv3.png" width="140" height="120" />
-  <img src="/images/cv4.png" width="140" height="120" />
+  <img src="/images/cv.png" width="140" height="120" />
 </p>
 
 - after collection the data train the RNN models by running `traficForecast.ipynb`. you can skip the training process and load models from `models` directory.  
