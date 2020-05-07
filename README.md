@@ -23,9 +23,9 @@ The demo webpage will be running on: [http://127.0.0.1:5000/](http://127.0.0.1:5
 
 Website Demo : 
 <p float="left">
-  <img src="/images/web1.png" width="100" />
-  <img src="/images/web2.png" width="100" /> 
-  <img src="/images/web3.png" width="100" />
-  <img src="/images/web4.png" width="100" />
+  <img src="/images/web1.png" width="200" height="50" />
+  <img src="/images/web2.png" width="200" height="50" /> 
+  <img src="/images/web3.png" width="200" height="50" />
+  <img src="/images/web4.png" width="200" height="50" />
 </p>
 
