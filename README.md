@@ -21,7 +21,7 @@ videos. The second part is to train forecasting models using LSTM and GRU Neural
 - To test the models with your own input run the webapp by going to the `webapp` directory and typing `flask run` from command line. 
 The demo webpage will be running on: [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
 
-Website Demo : 
+Website Demo Images: 
 <p float="left">
   <img src="/images/web1.png" width="220" height="200" />
   <img src="/images/web2.png" width="220" height="200" /> 
@@ -29,3 +29,4 @@ Website Demo :
   <img src="/images/web4.png" width="220" height="200" />
 </p>
 
+Website Demo video: [Link]()
