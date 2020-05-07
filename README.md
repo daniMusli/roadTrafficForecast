@@ -1,4 +1,4 @@
-# RoadTrafficForecast
+# Road Traffic Forecast
 Road traffic flow detection on video data collected from two sources 
 - Videos captured from tablets mounted on ODOT trucks.
 - Videos obtained from the Caltrans Measurement System (CMS) in the state of California.
