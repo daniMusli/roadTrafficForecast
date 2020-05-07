@@ -11,10 +11,10 @@ videos. The second part is to train forecasting models using LSTM and GRU Neural
 - run `VehicleCounterYOLO.ipynb` if you do not care about real time data extraction the code is based on YOLO V3 published by Redmon and Farhadi(2018) [paper](https://arxiv.org/abs/1804.02767) . The counting API takes around 0.9 second on `NVIDIA GeForce GTX 1050` to process one video frame. very slow to be aplied on real time sources but much more accurate. (tested with around 96% accuracy). SSD object detector was also tested but it signifacantly struggled with smaller objects (tested with around 92% accuracy). for the SSD the time it required to run to forward a frame was around 0.1 second which a significant improvment compared with YOLO but still very slow for real time object detection specially for low processing power components that are typically used for Road Monitoring systems, for example [Beagle Board](https://beagleboard.org/black), [Raspberry Pi](https://www.raspberrypi.org/). Before running the code download the yolo-coco model weights from this [Link](https://drive.google.com/open?id=1FbtFXOgiGqWpDf1WOCPcw0W1VG8JTC3q) and put it inside `yolo-coco` directory.
 - run `VehicleCounterOpenCV.ipynb` for real time data extraction. accuracy around 85% , frame processing time is less than 0.03 seconds. 
 <p float="left">
-  <img src="/images/cv1.png" width="140" height="120" /><br>
-  <img src="/images/cv2.png" width="140" height="120" /><br>
-  <img src="/images/cv3.png" width="140" height="120" /><br>
-  <img src="/images/cv4.png" width="140" height="120" /><br>
+  <img src="/images/cv1.png" width="140" height="120" />
+  <img src="/images/cv2.png" width="140" height="120" />
+  <img src="/images/cv3.png" width="140" height="120" />
+  <img src="/images/cv4.png" width="140" height="120" />
 </p>
 
 - after collection the data train the RNN models by running `traficForecast.ipynb`. you can skip the training process and load models from `models` directory.  
