@@ -19,7 +19,7 @@ videos. The second part is to train forecasting models using LSTM and GRU Neural
  </p>
 
 
-- after collection the data train the RNN models by running `traficForecast.ipynb`. you can skip the training process and load models from `models` directory.  
+- The counter codes will automatically extract the data to a csv format file which can be used to train the RNN models by running `traficForecast.ipynb`. you can skip the training process and load models from `models` directory.  
 
 ## Results
 | Metrics | MAE | MSE | RMSE | MAPE |  R2  | Explained variance score |
