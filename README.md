@@ -1,6 +1,6 @@
 # Road Traffic Forecast
 Road traffic flow detection on video data collected from two sources 
-- Videos captured from tablets mounted on ODOT trucks (Data is not available for public use).
+- Videos captured from tablets mounted on ODOT trucks ( I can't share the data here as it is not available for public use).
 - Videos obtained from the Caltrans Measurement System (CMS) in the state of California [2GB Samples](http://www.poss.pku.edu.cn/OpenDataResource/TITS2016WangOnRoadVehicle.zip).
 ## Introduction 
 The purpose of this project is to develop a system that can extract traffic information from live video streams, for example Road Condition Monotiring Systems all over the US. This project consists of two parts mainly. The first part is extract traffic data from
