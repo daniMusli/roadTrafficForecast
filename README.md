@@ -30,7 +30,7 @@ The demo webpage will be running on: [http://127.0.0.1:5000/](http://127.0.0.1:5
 
 Website Demo Images: 
 <p float="left">
-  <img src="/images/web1.png"  width="500" height="500" />
+  <img src="/images/web1.png" />
   <img src="/images/web2.png"/> 
   <img src="/images/web3.png"/>
   <img src="/images/web4.png"/>
