@@ -29,7 +29,7 @@ videos. The second part is to train forecasting models using LSTM and GRU Neural
 The demo webpage will be running on: [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
 
 Website Demo Images: 
-<p float="left">
+<p float="center">
   <img src="/images/web1.png" />
   <img src="/images/web2.png"/> 
   <img src="/images/web3.png"/>
